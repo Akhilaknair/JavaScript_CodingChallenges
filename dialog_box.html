@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+
+    <script  type="text/javascript">
+     function show()
+     {
+        alert("this is an alert !")
+     }
+
+     function showprompt()
+     {
+       var str= prompt("enter ur name")
+       document.getElementById('js2').innerHTML=str;
+     }
+
+     function showconfirm()
+     {
+       var res=confirm("do u wanna continue?");
+       if(res==true)
+       {
+          document.getElementById('js').innerHTML="res";
+       }
+       else{
+        document.getElementById('js').innerHTML="res";
+       }
+     }
+    </script>
+</head>
+<body>
+<p>
+    <p id="js">u clicked = </p>
+   <p id="js2">Your name :  </p>
+    <button onclick="show()">Click</button>
+    <button onclick="showprompt()">ClickPrompt</button>
+    <button onclick="showconfirm()">Clickconfirm</button>
+    
+</p>
+ 
+</body>
+</html>
+

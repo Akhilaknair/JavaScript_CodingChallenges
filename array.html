@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript">
+
+              var arr=["a","b","c","d"];
+              var arr2=["x","y","z"];
+              var arr4=[1,81,6,9,3];
+              function printarr()
+              {
+                  document.getElementById('v1').innerHTML=arr;
+              }
+              function length_arr()
+              {
+                  document.getElementById('v2').innerHTML=arr.length;
+              }
+
+              function reverse_arr()
+              {
+                  arr=arr.reverse()
+                  document.getElementById('v3').innerHTML=arr;
+              }
+   
+              function concat_arr()
+              {
+                  var arr3=arr.concat(arr2)
+                  document.getElementById('v4').innerHTML=arr3;
+              }
+
+
+              function sort_arr()
+              {
+                  
+                  document.getElementById('v5').innerHTML=arr4.sort();
+              }
+
+              
+              function pop_arr()
+              {
+                  
+                  document.getElementById('v6').innerHTML=arr2.pop()+" is popped";
+                 
+              }
+      
+              function push_arr()
+              {
+                  
+                  document.getElementById('v7').innerHTML=arr4.push("S")+"  After adding array is "+arr4 ;
+                 
+              }
+              
+    </script>
+</head>
+<body>
+    <p>
+        <p id="v1"></p>
+        <p id="v2"></p>
+        <p id="v3"></p>
+        <p id="v4"></p>
+        <p id="v5"></p>
+        <p id="v6"></p>
+        <p id="v7"></p>
+        <button onclick="printarr()">print</button>
+        <button onclick="length_arr()">length</button>
+        <button onclick="reverse_arr()">reverse</button>
+        <button onclick="concat_arr()">concat</button>
+        <button onclick="sort_arr()">sort</button>
+        <button onclick="pop_arr()">pop</button>
+        <button onclick="push_arr()">push</button>
+    </p>
+</body>
+</html>
