@@ -1,0 +1,46 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body{
+   background-image: url("https://media.istockphoto.com/id/1098314864/photo/winter-landscape-from-finland.jpg?s=612x612&w=0&k=20&c=fM7sIIg2NzTtLabVoySuH3rhFHC5ly4gskFsDaKXioo=");
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+    font-family:cursive;
+     margin:0;
+     background-size: cover;
+     /* background-position: center center; */
+}
+
+.count-down_div{
+
+    display:flex;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+.big_text
+{
+    font-size: 7rem;
+    line-height: 1;
+    margin:0 2rem;
+    font-weight: bold;
+}
+
+
+.sub_container
+{
+     text-align: center;
+}
+
+.sub_container span{
+    font-size:1.5rem;
+}
+
