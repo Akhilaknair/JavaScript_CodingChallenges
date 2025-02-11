@@ -1,0 +1,36 @@
+.red
+{
+    background-color: red;
+}
+.blue
+{
+    background-color: blue;
+}
+.yellow
+{
+    background-color: chartreuse;
+}
+
+.white-text
+{
+    color:rgb(238, 237, 237)
+}
+.pink
+{
+    background-color: pink;
+}
+
+/* day 5 ke css he neeche :) */
+
+.bulb
+{
+    background-color: yellow;
+}
+
+.bulbcontainer
+{
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+}
+
