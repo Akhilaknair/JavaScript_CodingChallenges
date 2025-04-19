@@ -1,6 +1,7 @@
 package PredicateFuncn;
 
 import java.util.function.Predicate;
+import java.util.function.Function;
 
 public class PredicateFuncn{
 
@@ -21,6 +22,11 @@ public static void main(String args[])
 
      System.out.println("Using OR funcn "+checkLen.or(oddEvenStr).test("JavaTutorial"));
      System.out.println("Using negate funcn "+checkLen.negate().test("JavaTutorial"));
+
+
+     //using functions 
+     Function<Integer,Integer>squareIt=i->(i*i);
+     System.out.println("Square is "+squareIt.apply(6));
 
 }
 
